@@ -46,17 +46,17 @@ The **Controller** subsystem receives the Motion planner trajectory, eventually 
    5. Traffic Signalization Detection
 
 6. Self-driving car's decision making
-   
+
    1. Route planning
-   
+
       The **Route Planner** subsystem is responsible for computing a route, $W$, through a road network, from the self-driving car's initial position to the final position defined by a user operator. 
-   
+
       A Route is a sequence of way points, i.e. $W=\{w_1, w_2, ...,w_{|W|}\}$, where each way point, $w_i$, is a coordinate pair, i.e. $w_i=(x_i, y_i)$, in the Offline Maps.
-   
+
       If the road network is represented by a weighted directed graph, whose vertices are way points, edges connect pairs of way points, and edge weights denote the cost of traversing a road segment defined by two way points, then the problem of computing a route can be reduced to the problem of finding the shortest path in a weight directed graph.
-   
+
       Techniques for route planning in road networks provide different trade-offs in terms of query time, preprocessing time, space usage, and robustness to input change, among other factors. Such techniques can be categorized into four classes:
-   
+
       - Goal-directed techniques
         - Goal-directed techniques guide the search from the source vertex to the target vertex by avoiding scans of vertices that are not in the direction of the target vertex.
           - $A^*$
@@ -77,10 +77,40 @@ The **Controller** subsystem receives the Motion planner trajectory, eventually 
           - REACH algorithm
       - Bounded-hop techniques
         - Bounded-hop techniques precompute distances between pairs of vertices by adding virtual shortcuts to the graph. Since precomputing distances among all pairs of vertices is prohibitive for large networks, bounded-hop techniques aim to get the length of any virtual path with very few hops.
-   
+          - Hub Labeling (HL)
+          - $HL-\infty$ algorithm
+          - Hub Label Compression
+          - Transit Node Routing (TNR)
+      - Combinations
+        - Individual techniques can be combined into hybrid algorithms that exploit different graph properties.
+          - REAL algorithm combines REACH and ALT
+          - ReachFlags algorithm combines REACH and Arc Flags
+          - SHARC algorithm combines the computation of shortcuts with multilevel Arc Flags.
+          - CHASE algorithm combines CH with Arc Flags
+          - TNR+AF algorithm
+          - The PHAST algorithm 
+
    2. Path planning
 
+      - The **Path Planner** subsystem computes a set of Paths, $=\{P_1, P_2,...,P_{|P|}\}$, considering the current route, the self-driving car's State, the internal representation of the environment, as well as traffic rules.
 
+      - A Path $P_j=\{p_1, p_2, ..., p_{|P|}\}$ is a sequence poses $p_i=(x_i, y_i, \theta_i)$, which are car positions and respective orientations in the Offline Maps.
+      - Methods for path planning can be mainly categorized into two classes: **graph search based** and **interpolating curve based**.
+      - Graph search based techniques
+        - Graph search based techniques searched for the best paths between car's current state and a goal state in a state space represented as a graph.
+        - The goal state is a pose near a way point $w_i$ of the current route $W$.
+        - These techniques discretize the search space imposing a graph on a occupancy grid map with centers of cells acting as neighbors in the search graph.
+        - The most common graph search based techniques for path planning of self-driving cars are Dijkstra, A-star, and A-star variants.
+      - Interpolating curve based techniques
+        - Interpolating curve based techniques take a previously known set of points and generate a new set of points the depicts a smooth path.
+        - The most usual interpolating curve based techniques for path planning of self-driving cars are spline curves.
+
+   3. Behavior selection
+
+      - The **Behavior Selector** subsystem is responsible for choosing the current driving behavior, such as lane keeping, intersection handling, traffic light handling, etc., by selecting a Path, $P_j$, in $P$, a pose, $p_g$, in $P_j$, and the desired velocity at this pose. 
+      - The pair $p_g$ and associated velocity is called a $Goal_g=(p_g, v_g)$.
+      - The estimated time between the current state and the $Goal_g$ is the *decision horizon*.
+      - The Behavior Selector chooses a Goal considering the current driving behavior and avoiding collisions with static and moving obstacles in the environment within the decision horizon time frame.
 
 
 
