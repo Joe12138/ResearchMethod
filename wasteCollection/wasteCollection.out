@@ -1,0 +1,39 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Background}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Related Work}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Classical Search Operators in Local search}{section.2}% 4
+\BOOKMARK [1][-]{section.3}{Real-world Waste Collection Problem}{}% 5
+\BOOKMARK [2][-]{subsection.3.1}{Problem Description}{section.3}% 6
+\BOOKMARK [3][-]{subsubsection.3.1.1}{Data Collection and Pre-processing}{subsection.3.1}% 7
+\BOOKMARK [3][-]{subsubsection.3.1.2}{Necessity of a New Model}{subsection.3.1}% 8
+\BOOKMARK [2][-]{subsection.3.2}{M3CVRP}{section.3}% 9
+\BOOKMARK [1][-]{section.4}{Smart Initialisation}{}% 10
+\BOOKMARK [2][-]{subsection.4.1}{Solution Representation}{section.4}% 11
+\BOOKMARK [2][-]{subsection.4.2}{M3CWSA: An Adaptation of Clarke and Wright Savings Algorithm for M3CVRP}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.3}{Heuristic-assisted Solution Initialisation \(HaSI\)}{section.4}% 13
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Depot-directed route initialisation}{subsection.4.3}% 14
+\BOOKMARK [3][-]{subsubsection.4.3.2}{Tight approach for better solution}{subsection.4.3}% 15
+\BOOKMARK [2][-]{subsection.4.4}{Experimental Study}{section.4}% 16
+\BOOKMARK [3][-]{subsubsection.4.4.1}{HaSI v.s. M3CWSAs}{subsection.4.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Fine-tuned HaSI}{subsection.4.4}% 18
+\BOOKMARK [2][-]{subsection.4.5}{Discussion}{section.4}% 19
+\BOOKMARK [1][-]{section.5}{Optimisation Methods}{}% 20
+\BOOKMARK [2][-]{subsection.5.1}{Solution Representation and Evaluation}{section.5}% 21
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Representation}{subsection.5.1}% 22
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Evaluation function}{subsection.5.1}% 23
+\BOOKMARK [2][-]{subsection.5.2}{Backspacing Insertion Method}{section.5}% 24
+\BOOKMARK [2][-]{subsection.5.3}{Extended Local Search}{section.5}% 25
+\BOOKMARK [3][-]{subsubsection.5.3.1}{Region-constrained single-point swap \(RCSPS\)}{subsection.5.3}% 26
+\BOOKMARK [3][-]{subsubsection.5.3.2}{Region-constrained segment swap \(RCSS\)}{subsection.5.3}% 27
+\BOOKMARK [3][-]{subsubsection.5.3.3}{Relaxed multi-point swap \(RMPS\)}{subsection.5.3}% 28
+\BOOKMARK [3][-]{subsubsection.5.3.4}{Insertion}{subsection.5.3}% 29
+\BOOKMARK [3][-]{subsubsection.5.3.5}{Swap}{subsection.5.3}% 30
+\BOOKMARK [3][-]{subsubsection.5.3.6}{2-opt}{subsection.5.3}% 31
+\BOOKMARK [2][-]{subsection.5.4}{Memetic Algorithm with ELS \(MAELS\)}{section.5}% 32
+\BOOKMARK [2][-]{subsection.5.5}{Experimental Study}{section.5}% 33
+\BOOKMARK [3][-]{subsubsection.5.5.1}{Effectiveness of BSIM}{subsection.5.5}% 34
+\BOOKMARK [3][-]{figure.6}{LS v.s. ELS}{subsection.5.5}% 35
+\BOOKMARK [3][-]{subsubsection.5.5.3}{ELS v.s. MAELS}{subsection.5.5}% 36
+\BOOKMARK [2][-]{subsection.5.6}{Discussion}{section.5}% 37
+\BOOKMARK [1][-]{section.6}{Conclusion}{}% 38
+\BOOKMARK [1][-]{section*.1}{References}{}% 39

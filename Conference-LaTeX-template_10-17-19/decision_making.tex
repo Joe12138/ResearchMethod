@@ -56,7 +56,7 @@ In order to regulate the application of unmanned driving technology, the Nationa
 	\item Level 5 (Fully Automated Driving): Unmanned driving system that does not limit roads and environmental conditions
 \end{enumerate}
 
-The perception system and the decision-making system are two main parts of the autonomy system architecture of autonomous vehicle~\cite{Brian2016}. To limit the scope of this survey, We focus on some aspects of decision-making system, which includes route planning, path planning, behavior selection, motion planning, obstacle avoidance and control, in particular, for systems falling into the automation level of 3 and above~\cite{self_driving}.
+The perception system and the decision-making system are two main parts of the autonomy system architecture of autonomous vehicle~\cite{Brian2016}. The perception system is generally divided into many subsystems which are localization, static obstacles mapping or offline maps, mapper, moving objects tracking (MOT) and traffic signalization detector (TSD)~\cite{self_driving}. To limit the scope of this survey, We focus on some aspects of decision-making system, which includes route planning, path planning, behavior selection, motion planning, obstacle avoidance and control, in particular, for systems falling into the automation level of 3 and above~\cite{self_driving}. Additionally, the overview of the typical architecture of the automation system of autonomous vehicles is shown in Fig\ref{architecture}.
 
 The remainder of the paper id structured as follows:
 \begin{enumerate}
@@ -70,22 +70,17 @@ The remainder of the paper id structured as follows:
 \end{enumerate}
 
 
-\section{Background}
-\begin{enumerate}
-	\item Identify the problems that you are going to address/review
-	\item State the motivation that why do this review
-\end{enumerate}
-\section{Review different methods or categories}
-\begin{enumerate}
-	\item Categorize the existing work
-	\item The description of each methods, advantage and disadvantage of each method
-\end{enumerate}
-\section{Discussion}
-\begin{enumerate}
-	\item Summary of progress
-	\item Problem unsolved 
-	\item Research directions
-\end{enumerate}
+\section{Overview of the Decision-Making Hierarchy}
+
+\begin{figure}[htbp]
+	\centering
+	\includegraphics[width=1\columnwidth]{./picture/architecture.png}
+	\caption{\label{architecture}
+		Overview of the typical architecture of the automation system of autonomous vehicles. TSD denotes Traffic Signalization Detection and MOT denotes Moving Objects Tracking~\cite{self_driving}.}
+\end{figure}
+
+In this section, the decision making system of a typical autonomous vehicles is described and the brief description of each component of decision making system is provided. The perception system of autonomous vehicles use data captured by on-board sensors, such as Light Detection and Ranging (LIDAR), Radio Detection and Ranging (RADAR), camera, Global Positioning System (GPS), Inertial Measurement Unit (IMU), odometer, etc., and prior information about the models of sensors, road network, traffic rules, vehicle dynamics, etc. to estimate the state of vehicles and create representation of the surrounding environment~\cite{self_driving}. Then, the decision making system use the estimation and environment constructed to control the vehicle in order to reach the goal object~\cite{Brian2016}. 
+
 
 
 \section*{Acknowledgment}
