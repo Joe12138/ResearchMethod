@@ -1,0 +1,86 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{The Literature of Path Planning*\\
+{\footnotesize \textsuperscript{*}Note: Sub-titles are not captured in Xplore and
+should not be used}
+\thanks{Identify applicable funding agency here. If none, delete this.}
+}
+
+\author{\IEEEauthorblockN{1\textsuperscript{st} Wenxing Lan}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{2\textsuperscript{nd} Given Name Surname}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+\and
+\IEEEauthorblockN{3\textsuperscript{rd} Given Name Surname}
+\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
+\textit{name of organization (of Aff.)}\\
+City, Country \\
+email address or ORCID}
+
+}
+
+\maketitle
+
+\begin{abstract}
+This document is a model and instructions for \LaTeX.
+This and the IEEEtran.cls file define the components of your paper [title, text, heads, etc.]. *CRITICAL: Do Not Use Symbols, Special Characters, Footnotes, 
+or Math in Paper Title or Abstract.
+\end{abstract}
+
+\begin{IEEEkeywords}
+component, formatting, style, styling, insert
+\end{IEEEkeywords}
+
+\section{Local path planning in a complex environment for self-driving car}
+\subsection{Abstract}
+\begin{enumerate}
+	\item This paper introduces an local path planning algorithm for the self-driving car in a complex environment.
+	\item Novelty:
+		\begin{enumerate}
+			\item The novel path representation.
+			\item The collision detection and the path modification using a voronoi cell.
+			\item The novel path representation provides convenience for checking the collision and modifying the path and continuous control input for steering wheel rather than way point navigation.
+		\end{enumerate}
+\end{enumerate}
+\subsection{Introduction}
+\begin{enumerate}
+	\item Path planning can be categorized into Potential-field approach\cite{realtime}, Roadmap based approach, and Cell decomposition based approach.
+		\begin{enumerate}
+			\item The cell decomposition based approach is to divide free space where no collision against obstacles is found into a certain size of cells and find a path by connecting adjacent cells.
+			\item The roadmap based approach is divided into deterministic roadmap and probabilistic roadmap. A typical example of the probabilistic roadmap is using RRT.
+		\end{enumerate}
+	\item 
+\end{enumerate}
+
+
+\section*{Acknowledgment}
+
+The preferred spelling of the word ``acknowledgment'' in America is without 
+an ``e'' after the ``g''. Avoid the stilted expression ``one of us (R. B. 
+G.) thanks $\ldots$''. Instead, try ``R. B. G. thanks$\ldots$''. Put sponsor 
+acknowledgments in the unnumbered footnote on the first page.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{literature} 
+
+\end{document}
+
