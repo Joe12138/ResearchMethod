@@ -110,4 +110,13 @@ S.~O.-R. A. V.~S. Committee \emph{et~al.}, ``Taxonomy and definitions for terms
   related to driving automation systems for on-road motor vehicles,'' \emph{SAE
   International: Warrendale, PA, USA}, 2018.
 
+\bibitem{dijkstra1959note}
+E.~W. Dijkstra \emph{et~al.}, ``A note on two problems in connexion with
+  graphs,'' \emph{Numerische mathematik}, vol.~1, no.~1, pp. 269--271, 1959.
+
+\bibitem{Hart1968formal}
+P.~E. {Hart}, N.~J. {Nilsson}, and B.~{Raphael}, ``A formal basis for the
+  heuristic determination of minimum cost paths,'' \emph{IEEE Transactions on
+  Systems Science and Cybernetics}, vol.~4, no.~2, pp. 100--107, 1968.
+
 \end{thebibliography}
