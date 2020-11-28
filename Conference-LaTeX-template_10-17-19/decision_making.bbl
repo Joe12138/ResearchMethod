@@ -119,4 +119,188 @@ P.~E. {Hart}, N.~J. {Nilsson}, and B.~{Raphael}, ``A formal basis for the
   heuristic determination of minimum cost paths,'' \emph{IEEE Transactions on
   Systems Science and Cybernetics}, vol.~4, no.~2, pp. 100--107, 1968.
 
+\bibitem{bast2016route}
+H.~Bast, D.~Delling, A.~Goldberg, M.~M{\"u}ller-Hannemann, T.~Pajor,
+  P.~Sanders, D.~Wagner, and R.~F. Werneck, ``Route planning in transportation
+  networks,'' in \emph{Algorithm engineering}.\hskip 1em plus 0.5em minus
+  0.4em\relax Springer, 2016, pp. 19--80.
+
+\bibitem{forsythe1964algorithms}
+G.~E. Forsythe, ``Algorithms,'' \emph{Communications of the ACM}, vol.~7,
+  no.~6, pp. 347--349, 1964.
+
+\bibitem{bellman1958routing}
+R.~Bellman, ``On a routing problem,'' \emph{Quarterly of applied mathematics},
+  vol.~16, no.~1, pp. 87--90, 1958.
+
+\bibitem{ford1956network}
+L.~R. Ford~Jr, ``Network flow theory,'' Rand Corp Santa Monica Ca, Tech. Rep.,
+  1956.
+
+\bibitem{floyd1962algorithm}
+R.~W. Floyd, ``Algorithm 97: shortest path,'' \emph{Communications of the ACM},
+  vol.~5, no.~6, p. 345, 1962.
+
+\bibitem{goldberg2005computing}
+A.~V. Goldberg and C.~Harrelson, ``Computing the shortest path: A search meets
+  graph theory.'' in \emph{SODA}, vol.~5, 2005, pp. 156--165.
+
+\bibitem{hilger2009fast}
+M.~Hilger, E.~K{\"o}hler, R.~H. M{\"o}hring, and H.~Schilling, ``Fast
+  point-to-point shortest path computations with arc-flags,'' \emph{The
+  Shortest Path Problem: Ninth DIMACS Implementation Challenge}, vol.~74, pp.
+  41--72, 2009.
+
+\bibitem{lauther2006experimental}
+U.~Lauther, ``An experimental evaluation of point-to-point shortest path
+  calculation on road networks with precalculated edge-flags.'' in \emph{The
+  Shortest Path Problem}, 2006, pp. 19--39.
+
+\bibitem{delling2009high}
+D.~Delling, M.~Holzer, K.~M{\"u}ller, F.~Schulz, and D.~Wagner,
+  ``High-performance multi-level routing,'' \emph{The Shortest Path Problem:
+  Ninth DIMACS Implementation Challenge}, vol.~74, pp. 73--92, 2009.
+
+\bibitem{delling2017customizable}
+D.~Delling, A.~V. Goldberg, T.~Pajor, and R.~F. Werneck, ``Customizable route
+  planning in road networks,'' \emph{Transportation Science}, vol.~51, no.~2,
+  pp. 566--591, 2017.
+
+\bibitem{geisberger2012exact}
+R.~Geisberger, P.~Sanders, D.~Schultes, and C.~Vetter, ``Exact routing in large
+  road networks using contraction hierarchies,'' \emph{Transportation Science},
+  vol.~46, no.~3, pp. 388--404, 2012.
+
+\bibitem{gonzalez2015review}
+D.~Gonz{\'a}lez, J.~P{\'e}rez, V.~Milan{\'e}s, and F.~Nashashibi, ``A review of
+  motion planning techniques for automated vehicles,'' \emph{IEEE Transactions
+  on Intelligent Transportation Systems}, vol.~17, no.~4, pp. 1135--1145, 2015.
+
+\bibitem{bacha2008odin}
+A.~Bacha, C.~Bauman, R.~Faruque, M.~Fleming, C.~Terwelp, C.~Reinholtz, D.~Hong,
+  A.~Wicks, T.~Alberi, D.~Anderson \emph{et~al.}, ``Odin: Team victortango's
+  entry in the darpa urban challenge,'' \emph{Journal of field Robotics},
+  vol.~25, no.~8, pp. 467--492, 2008.
+
+\bibitem{kala2013multi}
+R.~Kala and K.~Warwick, ``Multi-level planning for semi-autonomous vehicles in
+  traffic scenarios based on separation maximization,'' \emph{Journal of
+  Intelligent \& Robotic Systems}, vol.~72, no. 3-4, pp. 559--590, 2013.
+
+\bibitem{arnay2016safe}
+R.~Arnay, N.~Morales, A.~Morell, J.~Hernandez-Aceituno, D.~Perea, J.~T. Toledo,
+  A.~Hamilton, J.~J. Sanchez-Medina, and L.~Acosta, ``Safe and reliable path
+  planning for the autonomous vehicle verdino,'' \emph{IEEE Intelligent
+  Transportation Systems Magazine}, vol.~8, no.~2, pp. 22--32, 2016.
+
+\bibitem{Leedy2007}
+\BIBentryALTinterwordspacing
+B.~M. Leedy, J.~S. Putney, C.~Bauman, S.~Cacciola, J.~Michael~Webster, and
+  C.~F. Reinholtz, \emph{Virginia Tech's Twin Contenders: A Comparative Study
+  of Reactive and Deliberative Navigation}.\hskip 1em plus 0.5em minus
+  0.4em\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 2007, pp.
+  155--182. [Online]. Available:
+  \url{https://doi.org/10.1007/978-3-540-73429-1_5}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ziegler2008787}
+\BIBentryALTinterwordspacing
+J.~Ziegler, M.~Werling, and J.~Schröder, ``Navigating car-like robots in
+  unstructured environments using an obstacle sensitive cost function,'' 2008,
+  pp. 787--791, cited By 46. [Online]. Available:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-57749196757&doi=10.1109%2fIVS.2008.4621302&partnerID=40&md5=11accfcd3da5016fd0cbe4e4919fd9b7}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Urmson2008}
+\BIBentryALTinterwordspacing
+C.~Urmson, J.~Anhalt, D.~Bagnell, C.~Baker, R.~Bittner, M.~N. Clark, J.~Dolan,
+  D.~Duggins, T.~Galatali, C.~Geyer, M.~Gittleman, S.~Harbaugh, M.~Hebert,
+  T.~M. Howard, S.~Kolski, A.~Kelly, M.~Likhachev, M.~McNaughton, N.~Miller,
+  K.~Peterson, B.~Pilnick, R.~Rajkumar, P.~Rybski, B.~Salesky, Y.-W. Seo,
+  S.~Singh, J.~Snider, A.~Stentz, W.~Whittaker, Z.~Wolkowicki, J.~Ziglar,
+  H.~Bae, T.~Brown, D.~Demitrish, B.~Litkouhi, J.~Nickolaou, V.~Sadekar,
+  W.~Zhang, J.~Struble, M.~Taylor, M.~Darms, and D.~Ferguson, ``Autonomous
+  driving in urban environments: Boss and the urban challenge,'' \emph{Journal
+  of Field Robotics}, vol.~25, no.~8, pp. 425--466, 2008. [Online]. Available:
+  \url{https://onlinelibrary.wiley.com/doi/abs/10.1002/rob.20255}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Dmitri2010path}
+\BIBentryALTinterwordspacing
+D.~Dolgov, S.~Thrun, M.~Montemerlo, and J.~Diebel, ``Path planning for
+  autonomous vehicles in unknown semi-structured environments,'' \emph{The
+  International Journal of Robotics Research}, vol.~29, no.~5, pp. 485--501,
+  2010. [Online]. Available: \url{https://doi.org/10.1177/0278364909359210}
+\BIBentrySTDinterwordspacing
+
+\bibitem{chu2015real}
+K.~Chu, J.~Kim, K.~Jo, and M.~Sunwoo, ``Real-time path planning of autonomous
+  vehicles for unstructured road navigation,'' \emph{International Journal of
+  Automotive Technology}, vol.~16, no.~4, pp. 653--668, 2015.
+
+\bibitem{chu2012local}
+K.~{Chu}, M.~{Lee}, and M.~{Sunwoo}, ``Local path planning for off-road
+  autonomous driving with avoidance of static obstacles,'' \emph{IEEE
+  Transactions on Intelligent Transportation Systems}, vol.~13, no.~4, pp.
+  1599--1616, 2012.
+
+\bibitem{HU2018482}
+\BIBentryALTinterwordspacing
+X.~Hu, L.~Chen, B.~Tang, D.~Cao, and H.~He, ``Dynamic path planning for
+  autonomous driving on various roads with avoidance of static and moving
+  obstacles,'' \emph{Mechanical Systems and Signal Processing}, vol. 100, pp.
+  482 -- 500, 2018. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0888327017303825}
+\BIBentrySTDinterwordspacing
+
+\bibitem{jo2015development}
+K.~{Jo}, J.~{Kim}, D.~{Kim}, C.~{Jang}, and M.~{Sunwoo}, ``Development of
+  autonomous car—part ii: A case study on the implementation of an autonomous
+  driving system based on distributed architecture,'' \emph{IEEE Transactions
+  on Industrial Electronics}, vol.~62, no.~8, pp. 5119--5132, 2015.
+
+\bibitem{guidolini2018handling}
+R.~{Guidolini}, L.~G. {Scart}, L.~F.~R. {Jesus}, V.~B. {Cardoso}, C.~{Badue},
+  and T.~{Oliveira-Santos}, ``Handling pedestrians in crosswalks using deep
+  neural networks in the iara autonomous car,'' in \emph{2018 International
+  Joint Conference on Neural Networks (IJCNN)}, 2018, pp. 1--8.
+
+\bibitem{Aeberhard2015}
+M.~{Aeberhard}, S.~{Rauch}, M.~{Bahram}, G.~{Tanzmeister}, J.~{Thomas},
+  Y.~{Pilat}, F.~{Homm}, W.~{Huber}, and N.~{Kaempchen}, ``Experience, results
+  and lessons learned from automated driving on germany's highways,''
+  \emph{IEEE Intelligent Transportation Systems Magazine}, vol.~7, no.~1, pp.
+  42--57, 2015.
+
+\bibitem{Okumura2016}
+B.~{Okumura}, M.~R. {James}, Y.~{Kanzawa}, M.~{Derry}, K.~{Sakai}, T.~{Nishi},
+  and D.~{Prokhorov}, ``Challenges in perception and decision making for
+  intelligent automotive vehicles: A case study,'' \emph{IEEE Transactions on
+  Intelligent Vehicles}, vol.~1, no.~1, pp. 20--32, 2016.
+
+\bibitem{Ziegler2014}
+J.~{Ziegler}, P.~{Bender}, M.~{Schreiber}, H.~{Lategahn}, T.~{Strauss},
+  C.~{Stiller}, T.~{Dang}, U.~{Franke}, N.~{Appenrodt}, C.~G. {Keller},
+  E.~{Kaus}, R.~G. {Herrtwich}, C.~{Rabe}, D.~{Pfeiffer}, F.~{Lindner},
+  F.~{Stein}, F.~{Erbs}, M.~{Enzweiler}, C.~{Knöppel}, J.~{Hipp}, M.~{Haueis},
+  M.~{Trepte}, C.~{Brenk}, A.~{Tamke}, M.~{Ghanaat}, M.~{Braun}, A.~{Joos},
+  H.~{Fritz}, H.~{Mock}, M.~{Hein}, and E.~{Zeeb}, ``Making bertha drive—an
+  autonomous journey on a historic route,'' \emph{IEEE Intelligent
+  Transportation Systems Magazine}, vol.~6, no.~2, pp. 8--20, 2014.
+
+\bibitem{Zhao2015ontology}
+L.~{Zhao}, R.~{Ichise}, T.~{Yoshikawa}, T.~{Naito}, T.~{Kakinami}, and
+  Y.~{Sasaki}, ``Ontology-based decision making on uncontrolled intersections
+  and narrow roads,'' in \emph{2015 IEEE Intelligent Vehicles Symposium (IV)},
+  2015, pp. 83--88.
+
+\bibitem{Zhao20171425}
+\BIBentryALTinterwordspacing
+L.~Zhao, R.~Ichise, Z.~Liu, S.~Mita, and Y.~Sasaki, ``Ontology-based driving
+  decision making: A feasibility study at uncontrolled intersections,''
+  \emph{IEICE Transactions on Information and Systems}, vol. E100D, no.~7, pp.
+  1425--1439, 2017, cited By 10. [Online]. Available:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85021751087&doi=10.1587%2ftransinf.2016EDP7337&partnerID=40&md5=f930067d3514ba87c935ae822a11e1c5}
+\BIBentrySTDinterwordspacing
+
 \end{thebibliography}

@@ -11,46 +11,48 @@ Database file #1: decision_making.bib
 -- IEEEtran.bst version 1.12 (2007/01/11) by Michael Shell.
 -- http://www.michaelshell.org/tex/ieeetran/bibtex/
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty booktitle in Ziegler2008787
 
 Done.
-You've used 15 entries,
+You've used 44 entries,
             4024 wiz_defined-function locations,
-            916 strings with 11053 characters,
-and the built_in function-call counts, 13094 in all, are:
-= -- 1059
-> -- 392
-< -- 109
-+ -- 209
-- -- 76
-* -- 700
-:= -- 1970
-add.period$ -- 30
-call.type$ -- 15
-change.case$ -- 17
-chr.to.int$ -- 225
-cite$ -- 15
-duplicate$ -- 920
-empty$ -- 950
-format.name$ -- 91
-if$ -- 3002
+            1100 strings with 18762 characters,
+and the built_in function-call counts, 41849 in all, are:
+= -- 3308
+> -- 1380
+< -- 366
++ -- 742
+- -- 270
+* -- 2145
+:= -- 6056
+add.period$ -- 89
+call.type$ -- 44
+change.case$ -- 47
+chr.to.int$ -- 792
+cite$ -- 45
+duplicate$ -- 2883
+empty$ -- 3032
+format.name$ -- 309
+if$ -- 9690
 int.to.chr$ -- 0
-int.to.str$ -- 15
-missing$ -- 175
-newline$ -- 76
-num.names$ -- 15
-pop$ -- 381
+int.to.str$ -- 44
+missing$ -- 569
+newline$ -- 175
+num.names$ -- 44
+pop$ -- 1279
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 996
+skip$ -- 3191
 stack$ -- 0
-substring$ -- 540
-swap$ -- 799
-text.length$ -- 34
+substring$ -- 1900
+swap$ -- 2560
+text.length$ -- 102
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 15
-warning$ -- 0
-while$ -- 54
-width$ -- 17
-write$ -- 189
+type$ -- 44
+warning$ -- 1
+while$ -- 180
+width$ -- 46
+write$ -- 508
+(There was 1 warning)
