@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.31)  29 NOV 2020 00:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.31)  30 NOV 2020 00:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -251,6 +251,23 @@ Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (c:/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
+(c:/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+
+(c:/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen169
+\ar@mcellbox=\box51
+\extrarowheight=\dimen170
+\NC@list=\toks25
+\extratabsurround=\skip56
+\backup@length=\skip57
+\ar@cellbox=\box52
+)
+\rotheadsize=\dimen171
+\c@nlinenum=\count269
+\TeXr@lab=\toks26
+)
 (c:/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
 
@@ -274,8 +291,8 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 (c:/texlive/2019/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-23 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count269
-\l__pdf_internal_box=\box51
+\l__kernel_color_stack_int=\count270
+\l__pdf_internal_box=\box53
 )
 (./decision_making.aux)
 \openout1 = `decision_making.aux'.
@@ -298,17 +315,17 @@ LaTeX Font Info:    ... okay on input line 13.
 -- Lines per column: 56 (exact).
 (c:/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count270
-\scratchdimen=\dimen169
-\scratchbox=\box52
-\nofMPsegments=\count271
-\nofMParguments=\count272
-\everyMPshowfont=\toks25
-\MPscratchCnt=\count273
-\MPscratchDim=\dimen170
-\MPnumerator=\count274
-\makeMPintoPDFobject=\count275
-\everyMPtoPDFconversion=\toks26
+\scratchcounter=\count271
+\scratchdimen=\dimen172
+\scratchbox=\box54
+\nofMPsegments=\count272
+\nofMParguments=\count273
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count274
+\MPscratchDim=\dimen173
+\MPnumerator=\count275
+\makeMPintoPDFobject=\count276
+\everyMPtoPDFconversion=\toks28
 ) (c:/texlive/2019/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -317,93 +334,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 (c:/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
-))
-
-LaTeX Warning: Citation `self_driving' on page 1 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Thorpe199144' on page 1 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Broggi199955' on page 1 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Gregor200248' on page 1 undefined on input line 37.
-
-
-LaTeX Warning: Citation `Brian2016' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation `self_driving' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation `Brian2016' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation `self_driving' on page 1 undefined on input line 39.
-
-
-LaTeX Warning: Citation `Buehler2007' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `Buehler2007' on page 1 undefined on input line 41.
-
-
-LaTeX Warning: Citation `buehler2009darpa' on page 1 undefined on input line 43
-.
-
-
-LaTeX Warning: Citation `buehler2009darpa' on page 1 undefined on input line 43
-.
-
-
-LaTeX Warning: Citation `Brian2016' on page 1 undefined on input line 43.
-
-
-LaTeX Warning: Citation `xin2014china' on page 1 undefined on input line 45.
-
-
-LaTeX Warning: Citation `Cerri2011' on page 1 undefined on input line 45.
-
-
-LaTeX Warning: Citation `broggi2012vislab' on page 1 undefined on input line 45
-.
-
-
-LaTeX Warning: Citation `Englund2016' on page 1 undefined on input line 45.
-
-
-LaTeX Warning: Citation `Broggi2015' on page 1 undefined on input line 45.
-
-
-LaTeX Warning: Citation `sae2018taxonomy' on page 1 undefined on input line 47.
-
-
-[1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+)) [1{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-
-LaTeX Warning: Citation `Brian2016' on page 2 undefined on input line 57.
-
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 57.
-
 <./picture/architecture.png, id=10, 605.1408pt x 561.297pt>
 File: ./picture/architecture.png Graphic file (type png)
 <use ./picture/architecture.png>
 Package pdftex.def Info: ./picture/architecture.png  used on input line 74.
 (pdftex.def)             Requested size: 252.0pt x 233.74756pt.
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Citation `Brian2016' on page 2 undefined on input line 79.
-
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 81.
-
 LaTeX Font Info:    Trying to load font information for U+msa on input line 84.
+
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -413,399 +354,79 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Citation `Brian2016' on page 2 undefined on input line 84.
-
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 84.
-
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 87.
-
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 87.
-
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 87.
-
-
-LaTeX Warning: Citation `Brian2016' on page 2 undefined on input line 90.
-
-
-LaTeX Warning: Citation `Brian2016' on page 2 undefined on input line 90.
-
-
-LaTeX Warning: Citation `self_driving' on page 2 undefined on input line 90.
-
-[2 <./picture/architecture.png>]
-
-LaTeX Warning: Citation `Brian2016' on page 3 undefined on input line 93.
-
-
-LaTeX Warning: Citation `self_driving' on page 3 undefined on input line 93.
-
-
-LaTeX Warning: Citation `self_driving' on page 3 undefined on input line 93.
-
-
-LaTeX Warning: Citation `self_driving' on page 3 undefined on input line 96.
-
-
-LaTeX Warning: Citation `self_driving' on page 3 undefined on input line 102.
-
-
-LaTeX Warning: Citation `self_driving' on page 3 undefined on input line 102.
-
-
-LaTeX Warning: Citation `dijkstra1959note' on page 3 undefined on input line 10
-2.
-
-
-LaTeX Warning: Citation `Hart1968formal' on page 3 undefined on input line 102.
-
-
-
-LaTeX Warning: Citation `self_driving' on page 3 undefined on input line 102.
-
-
-LaTeX Warning: Citation `self_driving' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 104.
-
-
-LaTeX Warning: Citation `dijkstra1959note' on page 3 undefined on input line 11
-3.
-
-
-LaTeX Warning: Citation `dijkstra1959note' on page 3 undefined on input line 11
-3.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 113.
-
-
-LaTeX Warning: Citation `forsythe1964algorithms' on page 3 undefined on input l
-ine 113.
-
-
-LaTeX Warning: Citation `dijkstra1959note' on page 3 undefined on input line 11
-5.
-
-
-LaTeX Warning: Citation `bellman1958routing' on page 3 undefined on input line 
-136.
-
-
-LaTeX Warning: Citation `ford1956network' on page 3 undefined on input line 136
-.
-
-
-LaTeX Warning: Citation `bellman1958routing' on page 3 undefined on input line 
-136.
-
-
-LaTeX Warning: Citation `ford1956network' on page 3 undefined on input line 136
-.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 136.
-
-
-LaTeX Warning: Citation `floyd1962algorithm' on page 3 undefined on input line 
-136.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 136.
-
-
-LaTeX Warning: Citation `bast2016route' on page 3 undefined on input line 141.
-
-[3]
-
-LaTeX Warning: Citation `Hart1968formal' on page 4 undefined on input line 143.
-
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 143.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 143.
-
-
-LaTeX Warning: Citation `goldberg2005computing' on page 4 undefined on input li
-ne 143.
-
-
-LaTeX Warning: Citation `hilger2009fast' on page 4 undefined on input line 145.
-
-
-
-LaTeX Warning: Citation `lauther2006experimental' on page 4 undefined on input 
-line 145.
-
-
-LaTeX Warning: Citation `hilger2009fast' on page 4 undefined on input line 145.
-
-
-
-LaTeX Warning: Citation `lauther2006experimental' on page 4 undefined on input 
-line 145.
-
-
-LaTeX Warning: Citation `hilger2009fast' on page 4 undefined on input line 145.
-
-
-
-LaTeX Warning: Citation `lauther2006experimental' on page 4 undefined on input 
-line 145.
-
-
-LaTeX Warning: Citation `hilger2009fast' on page 4 undefined on input line 145.
-
-
-
-LaTeX Warning: Citation `lauther2006experimental' on page 4 undefined on input 
-line 145.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 145.
-
-
-LaTeX Warning: Citation `self_driving' on page 4 undefined on input line 145.
-
-
-LaTeX Warning: Citation `self_driving' on page 4 undefined on input line 150.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 150.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 150.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 150.
-
-
-LaTeX Warning: Citation `delling2009high' on page 4 undefined on input line 150
-.
-
-
-LaTeX Warning: Citation `delling2009high' on page 4 undefined on input line 150
-.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 152.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 152.
-
-
-LaTeX Warning: Citation `delling2017customizable' on page 4 undefined on input 
-line 152.
-
-
-LaTeX Warning: Citation `delling2017customizable' on page 4 undefined on input 
-line 152.
-
-
-LaTeX Warning: Citation `delling2017customizable' on page 4 undefined on input 
-line 152.
-
-
-LaTeX Warning: Citation `delling2017customizable' on page 4 undefined on input 
-line 152.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 155.
-
-
-LaTeX Warning: Citation `bast2016route' on page 4 undefined on input line 155.
-
-
-LaTeX Warning: Citation `geisberger2012exact' on page 4 undefined on input line
- 155.
-
-
-LaTeX Warning: Citation `geisberger2012exact' on page 4 undefined on input line
- 155.
-
-
-LaTeX Warning: Citation `geisberger2012exact' on page 4 undefined on input line
- 155.
-
-
-LaTeX Warning: Citation `geisberger2012exact' on page 4 undefined on input line
- 155.
-
-
-LaTeX Warning: Citation `self_driving' on page 4 undefined on input line 167.
-
-
-LaTeX Warning: Citation `self_driving' on page 4 undefined on input line 167.
-
-
-LaTeX Warning: Citation `self_driving' on page 4 undefined on input line 167.
-
-
-LaTeX Warning: Citation `gonzalez2015review' on page 4 undefined on input line 
-170.
-
-
-LaTeX Warning: Citation `gonzalez2015review' on page 4 undefined on input line 
-170.
-
-
-LaTeX Warning: Citation `self_driving' on page 4 undefined on input line 170.
-
-
-LaTeX Warning: Citation `bacha2008odin' on page 4 undefined on input line 172.
-
-
-LaTeX Warning: Citation `kala2013multi' on page 4 undefined on input line 172.
-
-
-LaTeX Warning: Citation `arnay2016safe' on page 4 undefined on input line 172.
-
-[4]
-
-LaTeX Warning: Citation `Leedy2007' on page 5 undefined on input line 174.
-
-
-LaTeX Warning: Citation `Ziegler2008787' on page 5 undefined on input line 174.
-
-
-
-LaTeX Warning: Citation `Ziegler2008787' on page 5 undefined on input line 174.
-
-
-
-LaTeX Warning: Citation `Urmson2008' on page 5 undefined on input line 176.
-
-
-LaTeX Warning: Citation `Dmitri2010path' on page 5 undefined on input line 176.
-
-
-
-LaTeX Warning: Citation `chu2015real' on page 5 undefined on input line 176.
-
-
-LaTeX Warning: Citation `self_driving' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `self_driving' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `chu2012local' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `HU2018482' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `chu2012local' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `HU2018482' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `chu2012local' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `HU2018482' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `chu2012local' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `HU2018482' on page 5 undefined on input line 179.
-
-
-LaTeX Warning: Citation `Brian2016' on page 5 undefined on input line 184.
-
-
-LaTeX Warning: Citation `self_driving' on page 5 undefined on input line 184.
-
-
-LaTeX Warning: Citation `self_driving' on page 5 undefined on input line 187.
-
-
-LaTeX Warning: Citation `self_driving' on page 5 undefined on input line 187.
-
-
-LaTeX Warning: Citation `self_driving' on page 5 undefined on input line 187.
-
-
-LaTeX Warning: Citation `buehler2009darpa' on page 5 undefined on input line 18
-7.
-
-
-LaTeX Warning: Citation `jo2015development' on page 5 undefined on input line 1
-87.
-
-
-LaTeX Warning: Citation `guidolini2018handling' on page 5 undefined on input li
-ne 189.
-
-
-LaTeX Warning: Citation `guidolini2018handling' on page 5 undefined on input li
-ne 189.
-
-
-LaTeX Warning: Citation `Aeberhard2015' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Aeberhard2015' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Aeberhard2015' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Okumura2016' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Okumura2016' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Okumura2016' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Okumura2016' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Ziegler2014' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Ziegler2014' on page 5 undefined on input line 189.
-
-
-LaTeX Warning: Citation `Zhao2015ontology' on page 5 undefined on input line 19
-2.
-
-
-LaTeX Warning: Citation `Zhao2015ontology' on page 5 undefined on input line 19
-2.
-
-
-LaTeX Warning: Citation `Zhao2015ontology' on page 5 undefined on input line 19
-2.
-
-
-LaTeX Warning: Citation `Zhao2015ontology' on page 5 undefined on input line 19
-2.
-
-
-LaTeX Warning: Citation `Zhao20171425' on page 5 undefined on input line 192.
-
+) [2 <./picture/architecture.png>] [3] [4] [5]
+Overfull \hbox (30.43646pt too wide) in paragraph at lines 213--236
+ [][] 
+ []
+
+[6] [7] [8] (./decision_making.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+
+Underfull \hbox (badness 10000) in paragraph at lines 36--43
+\OT1/ptm/m/n/8 com / inward / record . uri ? eid = 2-[]s2 . 0-[]0026208452 & do
+i = 10 . 1109 % 2f64 .
+ []
+
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+
+Underfull \hbox (badness 10000) in paragraph at lines 46--53
+\OT1/ptm/m/n/8 2-[]s2 . 0-[]0032739352 & doi = 10 . 1109 % 2f5254 . 747906 & pa
+rtnerID = 40 &
+ []
+
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `English'. Using the pattern for
+** the default language instead.
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+\OT1/ptm/m/n/8 2-[]s2 . 0-[]19044381801 & doi = 10 . 1109 % 2f6979 . 994795 & p
+artnerID = 40 &
+ []
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 208--213
+\OT1/ptm/m/n/8 2-[]s2 . 0-[]57749196757 & doi = 10 . 1109 % 2fIVS . 2008 . 4621
+302 & partnerID =
+ []
+
+[10]
+Underfull \hbox (badness 2073) in paragraph at lines 299--305
+\OT1/ptm/m/n/8 [On-line]. Avail-able: $https : / / www . scopus . com / inward 
+/ record . uri ?
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--305
+\OT1/ptm/m/n/8 eid = 2-[]s2 . 0-[]85021751087 & doi = 10 . 1587 % 2ftransinf . 
+2016EDP7337 &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--319
+\OT1/ptm/m/n/8 Avail-able: $https : / / www . scopus . com / inward / record . 
+uri ? eid = 2-[]s2 .
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 314--319
+\OT1/ptm/m/n/8 0-[]84937131521 & doi = 10 . 1109 % 2fITSC . 2014 . 6957722 & pa
+rtnerID = 40 &
+ []
+
+[11])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -817,33 +438,34 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[5] (./decision_making.aux)
+[12
 
-LaTeX Warning: There were undefined references.
-
- ) 
+] (./decision_making.aux) ) 
 Here is how much of TeX's memory you used:
- 4442 strings out of 480994
- 63508 string characters out of 5916032
- 314976 words of memory out of 5000000
- 19908 multiletter control sequences out of 15000+600000
- 570274 words of font info for 96 fonts, out of 8000000 for 9000
+ 4721 strings out of 480994
+ 67032 string characters out of 5916032
+ 324077 words of memory out of 5000000
+ 20174 multiletter control sequences out of 15000+600000
+ 574241 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,8n,37p,1668b,274s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/texlive/2019/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2019/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2019/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
-c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive
-/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-dist/f
-onts/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/ti
-mes/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on decision_making.pdf (5 pages, 198264 bytes).
+ 30i,15n,37p,1668b,320s stack positions out of 5000i,500n,10000p,200000b,80000s
+{c:/texlive/2019/texmf-dist/fonts/enc/dvips/base/8r.
+enc}<c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2019/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2019/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.
+pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/te
+xlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-d
+ist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/u
+rw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.p
+fb>
+Output written on decision_making.pdf (12 pages, 258116 bytes).
 PDF statistics:
- 67 PDF objects out of 1000 (max. 8388607)
- 46 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 68 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

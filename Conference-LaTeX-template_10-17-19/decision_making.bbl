@@ -303,4 +303,296 @@ L.~Zhao, R.~Ichise, Z.~Liu, S.~Mita, and Y.~Sasaki, ``Ontology-based driving
   \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-85021751087&doi=10.1587%2ftransinf.2016EDP7337&partnerID=40&md5=f930067d3514ba87c935ae822a11e1c5}
 \BIBentrySTDinterwordspacing
 
+\bibitem{Ulbrich2013}
+S.~{Ulbrich} and M.~{Maurer}, ``Probabilistic online pomdp decision making for
+  lane changes in fully automated driving,'' in \emph{16th International IEEE
+  Conference on Intelligent Transportation Systems (ITSC 2013)}, 2013, pp.
+  2063--2067.
+
+\bibitem{Brechtel2014392}
+\BIBentryALTinterwordspacing
+S.~Brechtel, T.~Gindele, and R.~Dillmann, ``Probabilistic decision-making under
+  uncertainty for autonomous driving using continuous pomdps,'' 2014, pp.
+  392--399, cited By 110. [Online]. Available:
+  \url{https://www.scopus.com/inward/record.uri?eid=2-s2.0-84937131521&doi=10.1109%2fITSC.2014.6957722&partnerID=40&md5=d969a3200443b25288d2a06cf93e18f0}
+\BIBentrySTDinterwordspacing
+
+\bibitem{galceran2017multipolicy}
+E.~Galceran, A.~G. Cunningham, R.~M. Eustice, and E.~Olson, ``Multipolicy
+  decision-making for autonomous driving via changepoint-based behavior
+  prediction: Theory and experiment,'' \emph{Autonomous Robots}, vol.~41,
+  no.~6, pp. 1367--1382, 2017.
+
+\bibitem{ijcai2017-664}
+\BIBentryALTinterwordspacing
+K.~H. Wray, S.~J. Witwicki, and S.~Zilberstein, ``Online decision-making for
+  scalable autonomous systems,'' in \emph{Proceedings of the Twenty-Sixth
+  International Joint Conference on Artificial Intelligence, {IJCAI-17}}, 2017,
+  pp. 4768--4774. [Online]. Available:
+  \url{https://doi.org/10.24963/ijcai.2017/664}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Pivtoraiko2005}
+M.~Pivtoraiko and A.~Kelly, ``Efficient constrained path planning via search in
+  state lattices,'' in \emph{International Symposium on Artificial
+  Intelligence, Robotics, and Automation in Space}.\hskip 1em plus 0.5em minus
+  0.4em\relax Munich Germany, 2005, pp. 1--7.
+
+\bibitem{karaman2011sampling}
+S.~Karaman and E.~Frazzoli, ``Sampling-based algorithms for optimal motion
+  planning,'' \emph{The international journal of robotics research}, vol.~30,
+  no.~7, pp. 846--894, 2011.
+
+\bibitem{brezak2013real}
+M.~Brezak and I.~Petrovi{\'c}, ``Real-time approximation of clothoids with
+  bounded error for path planning applications,'' \emph{IEEE Transactions on
+  Robotics}, vol.~30, no.~2, pp. 507--515, 2013.
+
+\bibitem{piazzi2002quintic}
+A.~Piazzi, C.~L. Bianco, M.~Bertozzi, A.~Fascioli, and A.~Broggi, ``Quintic
+  g/sup 2/-splines for the iterative steering of vision-based autonomous
+  vehicles,'' \emph{IEEE Transactions on Intelligent Transportation Systems},
+  vol.~3, no.~1, pp. 27--36, 2002.
+
+\bibitem{glaser2010maneuver}
+S.~Glaser, B.~Vanholme, S.~Mammar, D.~Gruyer, and L.~Nouveliere,
+  ``Maneuver-based trajectory planning for highly autonomous vehicles on real
+  road with traffic and driver interaction,'' \emph{IEEE Transactions on
+  intelligent transportation systems}, vol.~11, no.~3, pp. 589--606, 2010.
+
+\bibitem{simon1999vehicle}
+A.~Simon and J.~C. Becker, ``Vehicle guidance for an autonomous vehicle,'' in
+  \emph{Proceedings 199 IEEE/IEEJ/JSAI International Conference on Intelligent
+  Transportation Systems (Cat. No. 99TH8383)}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 1999, pp. 429--434.
+
+\bibitem{rastelli2014dynamic}
+J.~P. Rastelli, R.~Lattarulo, and F.~Nashashibi, ``Dynamic trajectory
+  generation using continuous-curvature algorithms for door to door assistance
+  vehicles,'' in \emph{2014 IEEE Intelligent Vehicles Symposium
+  Proceedings}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp.
+  510--515.
+
+\bibitem{choi2008path}
+J.-w. Choi, R.~Curry, and G.~Elkaim, ``Path planning based on b{\'e}zier curve
+  for autonomous ground vehicles,'' in \emph{Advances in Electrical and
+  Electronics Engineering-IAENG Special Edition of the World Congress on
+  Engineering and Computer Science 2008}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2008, pp. 158--166.
+
+\bibitem{shiller1991dynamic}
+Z.~Shiller, Y.-R. Gwo \emph{et~al.}, ``Dynamic motion planning of autonomous
+  vehicles,'' \emph{IEEE Transactions on Robotics and Automation}, vol.~7,
+  no.~2, pp. 241--249, 1991.
+
+\bibitem{berglund2009planning}
+T.~Berglund, A.~Brodnik, H.~Jonsson, M.~Staffanson, and I.~Soderkvist,
+  ``Planning smooth and obstacle-avoiding b-spline paths for autonomous mining
+  vehicles,'' \emph{IEEE Transactions on Automation Science and Engineering},
+  vol.~7, no.~1, pp. 167--172, 2009.
+
+\bibitem{marchese2006multiple}
+F.~M. Marchese, ``Multiple mobile robots path-planning with mca,'' in
+  \emph{International Conference on Autonomic and Autonomous Systems
+  (ICAS'06)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2006, pp. 56--56.
+
+\bibitem{lavalle1998optimal}
+S.~M. LaValle and S.~A. Hutchinson, ``Optimal motion planning for multiple
+  robots having independent goals,'' \emph{IEEE Transactions on Robotics and
+  Automation}, vol.~14, no.~6, pp. 912--925, 1998.
+
+\bibitem{lavalle2006planning}
+S.~M. LaValle, \emph{Planning algorithms}.\hskip 1em plus 0.5em minus
+  0.4em\relax Cambridge university press, 2006.
+
+\bibitem{hwang2003fast}
+J.~Y. Hwang, J.~S. Kim, S.~S. Lim, and K.~H. Park, ``A fast path planning by
+  path graph optimization,'' \emph{IEEE Transactions on systems, man, and
+  cybernetics-part a: systems and humans}, vol.~33, no.~1, pp. 121--129, 2003.
+
+\bibitem{bohren2008little}
+J.~Bohren, T.~Foote, J.~Keller, A.~Kushleyev, D.~Lee, A.~Stewart, P.~Vernaza,
+  J.~Derenick, J.~Spletzer, and B.~Satterfield, ``Little ben: The ben franklin
+  racing team's entry in the 2007 darpa urban challenge,'' \emph{Journal of
+  Field Robotics}, vol.~25, no.~9, pp. 598--614, 2008.
+
+\bibitem{likhachev2009planning}
+M.~Likhachev and D.~Ferguson, ``Planning long dynamically feasible maneuvers
+  for autonomous vehicles,'' \emph{The International Journal of Robotics
+  Research}, vol.~28, no.~8, pp. 933--945, 2009.
+
+\bibitem{ferguson2006using}
+D.~Ferguson and A.~Stentz, ``Using interpolation to improve path planning: The
+  field d* algorithm,'' \emph{Journal of Field Robotics}, vol.~23, no.~2, pp.
+  79--101, 2006.
+
+\bibitem{KAHANA2001739}
+\BIBentryALTinterwordspacing
+M.~J. Kahana, D.~Seelig, and J.~R. Madsen, ``Theta returns,'' \emph{Current
+  Opinion in Neurobiology}, vol.~11, no.~6, pp. 739 -- 744, 2001. [Online].
+  Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S0959438801002781}
+\BIBentrySTDinterwordspacing
+
+\bibitem{LIKHACHEV20081613}
+\BIBentryALTinterwordspacing
+M.~Likhachev, D.~Ferguson, G.~Gordon, A.~Stentz, and S.~Thrun, ``Anytime search
+  in dynamic graphs,'' \emph{Artificial Intelligence}, vol. 172, no.~14, pp.
+  1613 -- 1643, 2008. [Online]. Available:
+  \url{http://www.sciencedirect.com/science/article/pii/S000437020800060X}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Ziegler2008}
+J.~{Ziegler}, M.~{Werling}, and J.~{Schroder}, ``Navigating car-like robots in
+  unstructured environments using an obstacle sensitive cost function,'' in
+  \emph{2008 IEEE Intelligent Vehicles Symposium}, 2008, pp. 787--791.
+
+\bibitem{kavraki1996probabilistic}
+L.~E. Kavraki, P.~Svestka, J.-C. Latombe, and M.~H. Overmars, ``Probabilistic
+  roadmaps for path planning in high-dimensional configuration spaces,''
+  \emph{IEEE transactions on Robotics and Automation}, vol.~12, no.~4, pp.
+  566--580, 1996.
+
+\bibitem{lavalle2001randomized}
+S.~M. LaValle and J.~J. Kuffner~Jr, ``Randomized kinodynamic planning,''
+  \emph{The international journal of robotics research}, vol.~20, no.~5, pp.
+  378--400, 2001.
+
+\bibitem{elbanhawi2014sampling}
+M.~Elbanhawi and M.~Simic, ``Sampling-based robot motion planning: A review,''
+  \emph{Ieee access}, vol.~2, pp. 56--77, 2014.
+
+\bibitem{Kuwata2009}
+Y.~{Kuwata}, J.~{Teo}, G.~{Fiore}, S.~{Karaman}, E.~{Frazzoli}, and J.~P.
+  {How}, ``Real-time motion planning with applications to autonomous urban
+  driving,'' \emph{IEEE Transactions on Control Systems Technology}, vol.~17,
+  no.~5, pp. 1105--1118, 2009.
+
+\bibitem{karaman2010optimal}
+S.~Karaman and E.~Frazzoli, ``Optimal kinodynamic motion planning using
+  incremental sampling-based methods,'' in \emph{49th IEEE conference on
+  decision and control (CDC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE,
+  2010, pp. 7681--7687.
+
+\bibitem{dolgov2010path}
+D.~Dolgov, S.~Thrun, M.~Montemerlo, and J.~Diebel, ``Path planning for
+  autonomous vehicles in unknown semi-structured environments,'' \emph{The
+  International Journal of Robotics Research}, vol.~29, no.~5, pp. 485--501,
+  2010.
+
+\bibitem{ziegler2014making}
+J.~Ziegler, P.~Bender, M.~Schreiber, H.~Lategahn, T.~Strauss, C.~Stiller,
+  T.~Dang, U.~Franke, N.~Appenrodt, C.~G. Keller \emph{et~al.}, ``Making bertha
+  drive—an autonomous journey on a historic route,'' \emph{IEEE Intelligent
+  transportation systems magazine}, vol.~6, no.~2, pp. 8--20, 2014.
+
+\bibitem{walton2005controlled}
+D.~J. Walton and D.~S. Meek, ``A controlled clothoid spline,'' \emph{Computers
+  \& Graphics}, vol.~29, no.~3, pp. 353--363, 2005.
+
+\bibitem{setsompop2012blipped}
+K.~Setsompop, B.~A. Gagoski, J.~R. Polimeni, T.~Witzel, V.~J. Wedeen, and L.~L.
+  Wald, ``Blipped-controlled aliasing in parallel imaging for simultaneous
+  multislice echo planar imaging with reduced g-factor penalty,''
+  \emph{Magnetic resonance in medicine}, vol.~67, no.~5, pp. 1210--1224, 2012.
+
+\bibitem{wang2001approximation}
+L.~Wang, K.~T. Miura, E.~Nakamae, T.~Yamamoto, and T.~J. Wang, ``An
+  approximation approach of the clothoid curve defined in the interval [0,
+  $\pi$/2] and its offset by free-form curves,'' \emph{Computer-Aided Design},
+  vol.~33, no.~14, pp. 1049--1058, 2001.
+
+\bibitem{sanchez2003polynomial}
+J.~S{\'a}nchez-Reyes and J.~M. Chac{\'o}n, ``Polynomial approximation to
+  clothoids via s-power series,'' \emph{Computer-Aided Design}, vol.~35,
+  no.~14, pp. 1305--1313, 2003.
+
+\bibitem{montes2008real}
+N.~Mont{\'e}s, A.~Herraez, L.~Armesto, and J.~Tornero, ``Real-time clothoid
+  approximation by rational bezier curves,'' in \emph{2008 IEEE International
+  Conference on Robotics and Automation}.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 2008, pp. 2246--2251.
+
+\bibitem{bansal2018collaborative}
+S.~Bansal, A.~Cosgun, A.~Nakhaei, and K.~Fujimura, ``Collaborative planning for
+  mixed-autonomy lane merging,'' in \emph{2018 IEEE/RSJ International
+  Conference on Intelligent Robots and Systems (IROS)}.\hskip 1em plus 0.5em
+  minus 0.4em\relax IEEE, 2018, pp. 4449--4455.
+
+\bibitem{luo2018porca}
+Y.~Luo, P.~Cai, A.~Bera, D.~Hsu, W.~S. Lee, and D.~Manocha, ``Porca: Modeling
+  and planning for autonomous driving among many pedestrians,'' \emph{IEEE
+  Robotics and Automation Letters}, vol.~3, no.~4, pp. 3418--3425, 2018.
+
+\bibitem{bai2015intention}
+H.~Bai, S.~Cai, N.~Ye, D.~Hsu, and W.~S. Lee, ``Intention-aware online pomdp
+  planning for autonomous driving in a crowd,'' in \emph{2015 ieee
+  international conference on robotics and automation (icra)}.\hskip 1em plus
+  0.5em minus 0.4em\relax IEEE, 2015, pp. 454--460.
+
+\bibitem{brechtel2014probabilistic}
+S.~Brechtel, T.~Gindele, and R.~Dillmann, ``Probabilistic decision-making under
+  uncertainty for autonomous driving using continuous pomdps,'' in \emph{17th
+  international IEEE conference on intelligent transportation systems
+  (ITSC)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2014, pp. 392--399.
+
+\bibitem{hubmann2017decision}
+C.~Hubmann, M.~Becker, D.~Althoff, D.~Lenz, and C.~Stiller, ``Decision making
+  for autonomous driving considering interaction and uncertain prediction of
+  surrounding vehicles,'' in \emph{2017 IEEE Intelligent Vehicles Symposium
+  (IV)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2017, pp. 1671--1678.
+
+\bibitem{wang2012monte}
+Y.~Wang, K.~S. Won, D.~Hsu, and W.~S. Lee, ``Monte carlo bayesian reinforcement
+  learning,'' \emph{arXiv preprint arXiv:1206.6449}, 2012.
+
+\bibitem{everett2018motion}
+M.~Everett, Y.~F. Chen, and J.~P. How, ``Motion planning among dynamic,
+  decision-making agents with deep reinforcement learning,'' in \emph{2018
+  IEEE/RSJ International Conference on Intelligent Robots and Systems
+  (IROS)}.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 2018, pp. 3052--3059.
+
+\bibitem{bojarski2016end}
+M.~Bojarski, D.~Del~Testa, D.~Dworakowski, B.~Firner, B.~Flepp, P.~Goyal, L.~D.
+  Jackel, M.~Monfort, U.~Muller, J.~Zhang \emph{et~al.}, ``End to end learning
+  for self-driving cars,'' \emph{arXiv preprint arXiv:1604.07316}, 2016.
+
+\bibitem{fox1997dynamic}
+D.~Fox, W.~Burgard, and S.~Thrun, ``The dynamic window approach to collision
+  avoidance,'' \emph{IEEE Robotics \& Automation Magazine}, vol.~4, no.~1, pp.
+  23--33, 1997.
+
+\bibitem{simmons1996curvature}
+R.~Simmons, ``The curvature-velocity method for local obstacle avoidance,'' in
+  \emph{Proceedings of IEEE international conference on robotics and
+  automation}, vol.~4.\hskip 1em plus 0.5em minus 0.4em\relax IEEE, 1996, pp.
+  3375--3382.
+
+\bibitem{ko1998lane}
+N.~Y. Ko and R.~G. Simmons, ``The lane-curvature method for local obstacle
+  avoidance,'' in \emph{Proceedings. 1998 IEEE/RSJ International Conference on
+  Intelligent Robots and Systems. Innovations in Theory, Practice and
+  Applications (Cat. No. 98CH36190)}, vol.~3.\hskip 1em plus 0.5em minus
+  0.4em\relax IEEE, 1998, pp. 1615--1621.
+
+\bibitem{fiorini1998motion}
+P.~Fiorini and Z.~Shiller, ``Motion planning in dynamic environments using
+  velocity obstacles,'' \emph{The International Journal of Robotics Research},
+  vol.~17, no.~7, pp. 760--772, 1998.
+
+\bibitem{chakravarthy1998obstacle}
+A.~Chakravarthy and D.~Ghose, ``Obstacle avoidance in a dynamic environment: A
+  collision cone approach,'' \emph{IEEE Transactions on Systems, Man, and
+  Cybernetics-Part A: Systems and Humans}, vol.~28, no.~5, pp. 562--574, 1998.
+
+\bibitem{fraichard2004inevitable}
+T.~Fraichard and H.~Asama, ``Inevitable collision states—a step towards safer
+  robots?'' \emph{Advanced Robotics}, vol.~18, no.~10, pp. 1001--1024, 2004.
+
+\bibitem{mayne2003model}
+D.~Q. Mayne and S.~Rakovi{\'c}, ``Model predictive control of constrained
+  piecewise affine discrete-time systems,'' \emph{International Journal of
+  Robust and Nonlinear Control: IFAC-Affiliated Journal}, vol.~13, no. 3-4, pp.
+  261--279, 2003.
+
 \end{thebibliography}
