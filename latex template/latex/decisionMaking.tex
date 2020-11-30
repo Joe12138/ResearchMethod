@@ -1,36 +1,62 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
-% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cvpr}
+\usepackage{times}
+\usepackage{epsfig}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{algorithmicx}
 \usepackage{graphicx, algorithm, algpseudocode}
 \usepackage{textcomp, makecell}
 \usepackage{xcolor}
-\usepackage{url}
-\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
-    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+
+% Include other packages here, before hyperref.
+
+% If you comment hyperref and then uncomment it, you should delete
+% egpaper.aux before re-running latex.  (Or just hit 'q' on the first latex
+% run, let it finish, and you should be clear).
+\usepackage[pagebackref=true,breaklinks=true,letterpaper=true,colorlinks,bookmarks=false]{hyperref}
+
+% \cvprfinalcopy % *** Uncomment this line for the final submission
+
+\def\cvprPaperID{****} % *** Enter the CVPR Paper ID here
+\def\httilde{\mbox{\tt\raisebox{-.5ex}{\symbol{126}}}}
+
+% Pages are numbered in submission mode, and unnumbered in camera-ready
+\ifcvprfinal\pagestyle{empty}\fi
 \begin{document}
 
+%%%%%%%%% TITLE
 \title{The Decision Making of Autonomous Vehicles: A Survey}
 
-\author{\IEEEauthorblockN{Wenxing Lan}
-\IEEEauthorblockA{\textit{Department of Computer Science and Engineering} \\
-\textit{Southern University of Science and Technology}\\
-Shenzhen, China. \\
-12032882@mail.sustech.edu.cn}
-
+\author{Wenxing Lan\\
+Department of Computer Science and Engineering\\
+Southern University of Science and Technology, Shenzhen, China.\\
+{\tt\small 12032882@mail.sustech.edu.cn}
+% For a paper whose authors are all at the same institution,
+% omit the following lines up until the closing ``}''.
+% Additional authors and addresses can be added with ``\and'',
+% just like the second author.
+% To save space, use either the email address or home page, not both
 
 }
 
 \maketitle
+%\thispagestyle{empty}
+
+%%%%%%%%% ABSTRACT
 
 \begin{abstract}
-Autonomous driving is an immature technology, but it can improve the safety, efficiency and convenience of automobile transportation. Therefore, it has great research significance. This paper investigates the decision-making system in the architecture of the autonomous driving system of autonomous vehicles. Decision-making systems are usually divided into many subsystems, which are responsible for tasks such as route planning, route planning, behavior selection, motion planning. In this survey, we have introduced every subsystem in the decision-making system. Finally, the future research directions and applications of decision-making systems are outlined.
+	Autonomous driving is an immature technology, but it can improve the safety, efficiency and convenience of automobile transportation. Therefore, it has great research significance. This paper investigates the decision-making system in the architecture of the autonomous driving system of autonomous vehicles. Decision-making systems are usually divided into many subsystems, which are responsible for tasks such as route planning, route planning, behavior selection, motion planning. In this survey, we have introduced every subsystem in the decision-making system. Finally, the future research directions and applications of decision-making systems are outlined.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Autunomous vehicle, decision making, route planning, path planning, behavior selection, motion planning
+	Autunomous vehicle, decision making, route planning, path planning, behavior selection, motion planning
 \end{IEEEkeywords}
 
 \section{Introduction}
@@ -119,15 +145,15 @@ Dijkstra's algorithm provides a standard solution to the one-to-all shortest pat
 		\State Initial all traversing cost $cost(v_s, v_i)=+\infty$ where $v_i \in V$.
 		\State Set $cost(v_s, v_s) = 0$.
 		\While {not all vertex $v \in V$ has been traversed}
-			\State Exact a vertex $u$ with minimum traversing cost from $Q$.
-			\State Find all arcs $E' = \{e | e=(u, v) \in E\}$ incident to $u$.
-			\For {each $e=(u,v) \in E'$}
-				\If {$cost(v_s, u)+w(u,v) < cost(v_s, v)$}
-					\State Set $cost(v_s, v) = cost(v_s, u)+w(u,v)$.
-				\EndIf
-			\State Add $u$ into $Q$.
-			\EndFor
-			
+		\State Exact a vertex $u$ with minimum traversing cost from $Q$.
+		\State Find all arcs $E' = \{e | e=(u, v) \in E\}$ incident to $u$.
+		\For {each $e=(u,v) \in E'$}
+		\If {$cost(v_s, u)+w(u,v) < cost(v_s, v)$}
+		\State Set $cost(v_s, v) = cost(v_s, u)+w(u,v)$.
+		\EndIf
+		\State Add $u$ into $Q$.
+		\EndFor
+		
 		\EndWhile
 		\State Return all traversing cost.
 	\end{algorithmic}
@@ -136,7 +162,7 @@ Dijkstra's algorithm provides a standard solution to the one-to-all shortest pat
 Bellman-Ford algorithm is an alternative method which can compute shortest path in a weighted directed graph~\cite{bellman1958routing, ford1956network}. At each iteration, it scans all vertices whose traversing cost have improve~\cite{bellman1958routing, ford1956network}. It often uses a simple FIFO queue to keep track of vertices to scan next~\cite{bast2016route}.  Additionally, Bellman-Ford algorithm has the \emph{label-correcting} property: each vertex may be scanned many times, and the time complexity of this algorithm is $O(|V||E|)$. Finally, the Floyd-Warshall algorithm calculates traversing cost between all pairs of vertices in $O(|V|^3)$ time~\cite{floyd1962algorithm}. It is more suitable for sufficiently dense graphs than Dijkstra's algorithm~\cite{bast2016route}.
 
 In summary, these algorithm metioned above are the basic algorithm to find shortest path in a weighted directed graph. Although they all have high time complexity, they always can find one shortest path in a given nonegative weighted directed graph.
-                         
+
 \subsection{Goal-directed Techniques}
 By avoiding scanning the vertices that are not in the direction of the target vertex, the goal-directed technology guides the search from the source vertex to the target vertex~\cite{bast2016route}.
 
@@ -306,7 +332,7 @@ Although the relevant technologies of the various subsystems of the decision-mak
 	
 	\item For the behavior selection subsystem, it needs to deal with various complex scenarios, so it has high requirements on the robustness of the algorithm.  Of course, it needs to quickly select the appropriate driving behavior based on real-time environmental information, so it also has high requirements on the complexity of the algorithm or the computing hardware.  In addition, in the inevitable accident, what will the system choose?  Is passenger safety or pedestrian safety the priority?  This is a problem that needs to be considered in the design of the behavior selection subsystem.
 	
-
+	
 	\item For the motion planning subsystem, it needs to calculate feasible trajectories that conform to vehicle kinematics and dynamics.  In addition, the future trajectories of other vehicles also need to be considered.  Perhaps calculating that a self-vehicle can keep a safe trajectory at any time is a content worth studying.
 	
 	\item For the obstacle avoidance subsystem, it needs to avoid obstacles based on real-time environmental information while driving on a predetermined trajectory.  Therefore, how to deal with various unexpected situations with an algorithm or model is a question worth considering.
@@ -318,7 +344,6 @@ In the past three decades, the development of driverless car technology has chan
 
 
 \bibliographystyle{IEEEtran}
-\bibliography{decision_making} 
+\bibliography{decisionMaking} 
 
 \end{document}
-

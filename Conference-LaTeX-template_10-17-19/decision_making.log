@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.31)  30 NOV 2020 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2020.3.31)  30 NOV 2020 14:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -355,11 +355,11 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 84.
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [2 <./picture/architecture.png>] [3] [4] [5]
-Overfull \hbox (30.43646pt too wide) in paragraph at lines 213--236
+Overfull \hbox (30.43646pt too wide) in paragraph at lines 209--232
  [][] 
  []
 
-[6] [7] [8] (./decision_making.bbl
+[6] [7] [8] [9] (./decision_making.bbl
 ** WARNING: IEEEtran.bst: No hyphenation pattern has been
 ** loaded for the language `English'. Using the pattern for
 ** the default language instead.
@@ -396,13 +396,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 56--63
 artnerID = 40 &
  []
 
-[9]
+[10]
 Underfull \hbox (badness 10000) in paragraph at lines 208--213
 \OT1/ptm/m/n/8 2-[]s2 . 0-[]57749196757 & doi = 10 . 1109 % 2fIVS . 2008 . 4621
 302 & partnerID =
  []
 
-[10]
+
 Underfull \hbox (badness 2073) in paragraph at lines 299--305
 \OT1/ptm/m/n/8 [On-line]. Avail-able: $https : / / www . scopus . com / inward 
 / record . uri ?
@@ -426,7 +426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 314--319
 rtnerID = 40 &
  []
 
-[11])
+[11] [12])
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -438,13 +438,13 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[12
+[13
 
 ] (./decision_making.aux) ) 
 Here is how much of TeX's memory you used:
  4721 strings out of 480994
  67032 string characters out of 5916032
- 324077 words of memory out of 5000000
+ 325077 words of memory out of 5000000
  20174 multiletter control sequences out of 15000+600000
  574241 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -462,10 +462,10 @@ xlive/2019/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2019/texmf-d
 ist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/u
 rw/times/utmr8a.pfb><c:/texlive/2019/texmf-dist/fonts/type1/urw/times/utmri8a.p
 fb>
-Output written on decision_making.pdf (12 pages, 258116 bytes).
+Output written on decision_making.pdf (13 pages, 263539 bytes).
 PDF statistics:
- 98 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 102 PDF objects out of 1000 (max. 8388607)
+ 71 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
